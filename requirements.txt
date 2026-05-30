@@ -1,0 +1,9 @@
+reqs = """pandas
+numpy
+matplotlib
+seaborn
+scikit-learn"""
+
+with open("requirements.txt", "w") as f:
+    f.write(reqs)
+print("requirements.txt created")
